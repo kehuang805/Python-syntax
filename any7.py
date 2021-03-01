@@ -2,6 +2,8 @@ def any7(nums):
     """Are any of these numbers a 7? (True/False)"""
 
     # YOUR CODE HERE 
+    count = nums.count(7)
+    return count >= 1
 
 
 print("should be true", any7([1, 2, 7, 4, 5]))
